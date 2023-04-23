@@ -1,13 +1,13 @@
 <p align="center">
-   <img src="https://telegra.ph/file/a9443b6240df15ccd0424.jpg">
+   <img src="https://preview.redd.it/7o581y1i7jo61.jpg?auto=webp&s=cbb1270afd1e691dd518526555539d8a010cf661">
 </p>
 
-# Miss Akshi
+# Obito
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://perso.crans.org/besson/LICENSE.html) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
 
 A modular Telegram Python bot running on python3 with a sqlalchemy database.
 
-### Found me on telegram [Miss AKSHI Robot](https://t.me/Obito2_0_bot)
+### Found me on telegram [ObitoRobot](https://t.me/Obito2_0_bot)
 
 ## DEPLOY ON HEROKU :
 
