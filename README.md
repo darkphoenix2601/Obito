@@ -24,8 +24,7 @@
     </p>
 
 ## 📊 Stats
-[![CodeFactor](https://www.codefactor.io/repository/github/darkphoenix2601/Obito/badge)](https://www.codefactor.io/repository/github/darkphoenix2601/m.v._player)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://perso.crans.org/besson/LICENSE.html) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
+[![CodeFactor](https://www.codefactor.io/repository/github/darkphoenix2601/obito/badge?s=b4af8a5e53662d173f7fe1a3c0ea2579962cba61)](https://www.codefactor.io/repository/github/darkphoenix2601/obito)[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://perso.crans.org/besson/LICENSE.html) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
 
 A modular Telegram Python bot running on python3 with a sqlalchemy database.
 
