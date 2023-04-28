@@ -96,6 +96,7 @@ if ENV:
     SPAMWATCH_SUPPORT_CHAT = os.environ.get("SPAMWATCH_SUPPORT_CHAT", None)
     REDIS_URL = os.environ.get("REDIS_URL")
     SPAMWATCH_API = os.environ.get("SPAMWATCH_API", None)
+    STRING_SESSION = os.environ.get("STRING_SESSION", None)
 
     ALLOW_CHATS = os.environ.get("ALLOW_CHATS", True)
 
@@ -170,6 +171,7 @@ else:
     SPAMWATCH_SUPPORT_CHAT = Config.SPAMWATCH_SUPPORT_CHAT
     SPAMWATCH_API = Config.SPAMWATCH_API
     INFOPIC = Config.INFOPIC
+    STRING_SESSION = Config.STRING_SESSION
     
     try:
         BL_CHATS = set(int(x) for x in Config.BL_CHATS or [])
@@ -209,6 +211,13 @@ from Obito.modules.helper_funsc.handlers import (
     CustomMessageHandler,
     CustomRegexHandler,
 )
+
+ubot2 = TelegramClient(StringSession(STRING_SESSION), API_ID, API_HASH)
+try:
+    ubot2.start()
+except BaseException:
+    print("Userbot Error ! Have you added a STRING_SESSION in deploying??")
+    sys.exit(1)
 
 # make sure the regex handler can take extra kwargs
 tg.RegexHandler = CustomRegexHandler
