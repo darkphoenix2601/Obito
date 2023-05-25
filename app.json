@@ -14,8 +14,8 @@
       {
          "options": {
             "version": "12"
-         },
-      },
+         }
+      }
    ],
    "buildpacks": [
     {
