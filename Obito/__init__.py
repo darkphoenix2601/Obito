@@ -212,12 +212,6 @@ from Obito.modules.helper_funsc.handlers import (
     CustomRegexHandler,
 )
 
-ubot2 = TelegramClient(StringSession(STRING_SESSION), API_ID, API_HASH)
-try:
-    ubot2.start()
-except BaseException:
-    print("Userbot Error ! Have you added a STRING_SESSION in deploying??")
-    sys.exit(1)
 
 # make sure the regex handler can take extra kwargs
 tg.RegexHandler = CustomRegexHandler
