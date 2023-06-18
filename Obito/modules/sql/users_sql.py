@@ -11,10 +11,9 @@ from sqlalchemy import (
     UniqueConstraint,
     func,
 )
-
 class Users(BASE):
     __tablename__ = "users"
-    user_id = Column(BigInteger, primary_key=True)
+    user_id = Column(BigInteger, primary_key=True)  # Updated from Integer to BigInteger
     username = Column(UnicodeText)
 
     def __init__(self, user_id, username=None):
@@ -23,8 +22,7 @@ class Users(BASE):
 
     def __repr__(self):
         return "<User {} ({})>".format(self.username, self.user_id)
-
-
+        
 class Chats(BASE):
     __tablename__ = "chats"
     chat_id = Column(String(14), primary_key=True)
