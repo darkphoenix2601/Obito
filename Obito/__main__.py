@@ -75,11 +75,11 @@ def get_readable_time(seconds: int) -> str:
  
     return ping_time
  
-Obito_IMG = "https://telegra.ph/file/7c3c26e0ed938aec91209.jpg"
+Obito_IMG = "https://graph.org/file/e6cdd8e02d1da4f8584e7.jpg"
  
 PM_START_TEXT = """
 ╭──────────────
-**Hey**🤞 **{message.from_user.first_name }** \n\n __ I am AKSHI🥀🍃[☘️](https://telegra.ph/file/ecb9b93a96b0b1a0c4c1b.jpg)
+**Hey**🤞  __ I am obito🥀🍃[☘️](https://graph.org/file/e6cdd8e02d1da4f8584e7.jpg)
 **I am an Advanced Group Manager Bot, With Lots of Cool Features❤️.**
 `For More Information Use the Button Below or Send` /help 
 ╰──────────────
@@ -88,10 +88,10 @@ PM_START_TEXT = """
 buttons = [
         [
         InlineKeyboardButton(
-            text="𝘈𝘥𝘥 𝘮𝘦 𝘯𝘰𝘸➕", url="t.me/ObitoV2_Bot?startgroup=true"),
+            text="𝘈𝘥𝘥 𝘮𝘦 𝘯𝘰𝘸➕", url="t.me/Obito_Uchia_Bot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="𝘔𝘪𝘴𝘴 𝘈𝘬𝘴𝘩𝘪 𝘭𝘰𝘨𝘴❤️", url=f"https://t.me/KTG_V1_EVENTS_LOGS"),
+        InlineKeyboardButton(text="Obito 𝘭𝘰𝘨𝘴❤️", url=f"https://t.me/KTG_V1_EVENTS_LOGS"),
     ],
     [
         InlineKeyboardButton(
@@ -114,7 +114,7 @@ HELP_STRINGS = """
  
  
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](#) or by contacting @akshi_s_ashu1 \
+ You can support the project via [Paypal](#) or by contacting  \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at."""
  
